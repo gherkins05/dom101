@@ -50,7 +50,7 @@ function newElement(name) {
 }
 
 function findElementById(id) {
-    return document.getElementById(id);
+    return document.querySelector(id);
 }
 
 function findElementsByQuery(query) {
